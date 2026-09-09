@@ -10,9 +10,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "graphql": "^17.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayush14122005/CSE_15_FSD_379.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Ayush14122005/CSE_15_FSD_379/issues"
+  },
+  "homepage": "https://github.com/Ayush14122005/CSE_15_FSD_379#readme"
 }
