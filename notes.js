@@ -12,14 +12,32 @@
 
 // Asynchronus is a non blocking architecture, so the execution of one task isn't dependent on another .
 // Task can run simultaneously
-function sum(){
+// function sum(){
+//     setTimeout(() =>{
+//         console.log("2");
+//     },2000);
+// }
+// function example(){
+//     console.log("1");
+//     sum();
+//     console.log("3");
+// }
+// example();
+-
+
+
+// promise is an object .it have 3 stages:-
+// 1. Pending - work is in process
+// 2. fullfilled- completed
+// 3.Rejected- work reject
+Promise 
+const promise =new Promise((resolve, reject) =>
+{
     setTimeout(() =>{
-        console.log("2");
-    },2000);
-}
-function example(){
-    console.log("1");
-    sum();
-    console.log("3");
-}
-example();
+        resolve("found data");
+
+    } ,2000);
+});
+promise.then((result) =>{
+    console.log(result);
+});
